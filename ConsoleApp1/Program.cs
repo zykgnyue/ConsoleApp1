@@ -12,8 +12,10 @@ namespace ConsoleApp1
         {
             Console.Write("Hello");
             
-            //TestHello t1 = new TestHello();
-            //t1.Test(args);
+            TestHello t1 = new TestHello();
+            t1.Hello(args);
+
+            TestHello.HelloStatic(args);
         }
     }
 
