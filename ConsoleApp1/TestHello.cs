@@ -27,7 +27,7 @@ namespace ConsoleApp1
             foreach (string xx in args)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine(xx);
+                Console.WriteLine(" "+xx);
             }
             Console.ResetColor();
 
